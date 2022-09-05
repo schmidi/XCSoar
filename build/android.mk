@@ -57,13 +57,13 @@ NATIVE_CLASSES := \
 	BatteryReceiver \
 	NativePortListener \
 	NativeDetectDeviceListener
-NATIVE_SOURCES = $(patsubst %,android/src/%.java,$(NATIVE_CLASSES))
+NATIVE_SOURCES = $(patsubst %,android/src/org/xcsoar/%.java,$(NATIVE_CLASSES))
 NATIVE_INCLUDE = $(TARGET_OUTPUT_DIR)/include
 NATIVE_PREFIX = $(NATIVE_INCLUDE)/$(subst .,_,$(JAVA_PACKAGE))_
 NATIVE_HEADERS = $(patsubst %,$(NATIVE_PREFIX)%.h,$(NATIVE_CLASSES))
 
 JAVA_SOURCES := \
-	$(wildcard android/src/*.java) \
+	$(wildcard android/src/org/xcsoar/*.java) \
 	android/UsbSerial/usbserial/src/main/java/com/felhr/deviceids/CH34xIds.java \
 	android/UsbSerial/usbserial/src/main/java/com/felhr/deviceids/CP210xIds.java \
 	android/UsbSerial/usbserial/src/main/java/com/felhr/deviceids/CP2130Ids.java \
@@ -97,7 +97,7 @@ JAVA_SOURCES := \
 	$(wildcard android/ioio/software/IOIOLibBT/src/ioio/lib/android/bluetooth/*.java) \
 	$(wildcard android/ioio/software/IOIOLibAndroidDevice/src/ioio/lib/android/device/*.java)
 ifeq ($(TESTING),y)
-	JAVA_SOURCES += $(wildcard android/src/testing/*.java)
+	JAVA_SOURCES += $(wildcard android/src/org/xcsoar/testing/*.java)
 endif
 
 GEN_DIR = $(ANDROID_OUTPUT_DIR)/gen
