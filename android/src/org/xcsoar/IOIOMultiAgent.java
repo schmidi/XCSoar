@@ -23,11 +23,12 @@
 
 package org.xcsoar;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.exception.ConnectionLostException;
 import ioio.lib.spi.IOIOConnectionFactory;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * This class is a container for multiple IOIOAgent objects.

@@ -23,18 +23,17 @@
 
 package org.xcsoar;
 
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-import android.util.Log;
 import android.content.ContextWrapper;
+import android.util.Log;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.exception.ConnectionLostException;
+import ioio.lib.spi.IOIOConnectionBootstrap;
 import ioio.lib.util.IOIOConnectionRegistry;
 import ioio.lib.util.android.ContextWrapperDependent;
-import ioio.lib.spi.IOIOConnectionBootstrap;
-import ioio.lib.spi.IOIOConnectionFactory;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 /**
  * A utility class which wraps the Java API into an easier API for the

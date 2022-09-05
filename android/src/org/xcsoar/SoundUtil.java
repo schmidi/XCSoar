@@ -23,12 +23,13 @@ Copyright_License {
 
 package org.xcsoar;
 
-import java.util.Map;
-import java.util.HashMap;
-import java.io.File;
-import android.media.MediaPlayer;
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.net.Uri;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 public class SoundUtil {
   private static Map<String, Integer> resources = new HashMap<String, Integer>();

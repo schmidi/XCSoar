@@ -22,9 +22,6 @@
 
 package org.xcsoar;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-
 import android.content.ContentProvider;
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -33,6 +30,9 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.provider.OpenableColumns;
 import android.webkit.MimeTypeMap;
+
+import java.io.File;
+import java.io.FileNotFoundException;
 
 /**
  * Provide access to files referred to by the Waypoint details file.

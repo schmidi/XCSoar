@@ -22,16 +22,14 @@
 
 package org.xcsoar;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.BroadcastReceiver;
-import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.Handler;
 import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
-import android.content.Context;
-import android.os.Handler;
 
 class GliderLinkReceiver
   extends BroadcastReceiver

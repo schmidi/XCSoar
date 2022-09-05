@@ -22,14 +22,6 @@
 
 package org.xcsoar;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Iterator;
-import java.io.IOException;
-
 import android.annotation.TargetApi;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -40,8 +32,15 @@ import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbManager;
 import android.os.Build;
 import android.util.Log;
-
 import com.felhr.usbserial.UsbSerialDevice;
+
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Map;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR1)
 public final class UsbSerialHelper extends BroadcastReceiver {

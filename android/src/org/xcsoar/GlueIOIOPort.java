@@ -23,7 +23,6 @@
 
 package org.xcsoar;
 
-import android.util.Log;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.Uart;
 import ioio.lib.api.exception.ConnectionLostException;

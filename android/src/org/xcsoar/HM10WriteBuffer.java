@@ -22,11 +22,11 @@
 
 package org.xcsoar;
 
-import java.util.Arrays;
-
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.util.Log;
+
+import java.util.Arrays;
 
 /**
  * This class helps with writing chunked data to a Bluetooth LE HM10

@@ -23,16 +23,17 @@ Copyright_License {
 
 package org.xcsoar;
 
-import java.io.Closeable;
-import java.io.File;
 import android.app.DownloadManager;
-import android.content.Context;
 import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Environment;
+
+import java.io.Closeable;
+import java.io.File;
 
 /**
  * A helper class for using #DownloadManager from C++ via JNI.  It

@@ -23,8 +23,6 @@ Copyright_License {
 
 package org.xcsoar;
 
-import java.io.Closeable;
-
 /**
  * The Java interface of the C++ AndroidPort class.
  */

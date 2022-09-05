@@ -23,14 +23,14 @@
 
 package org.xcsoar;
 
-import java.io.Closeable;
-import android.os.Handler;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.app.AlertDialog;
+import android.os.Handler;
 import android.view.WindowManager;
 import android.widget.EditText;
-import android.text.InputType;
+
+import java.io.Closeable;
 
 /*
  * A driver for voltage measurement on the IOIO board.

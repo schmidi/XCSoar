@@ -32,13 +32,12 @@
 
 package org.xcsoar;
 
-import java.io.IOException;
-
-import android.util.Log;
+import ioio.lib.api.DigitalInput;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.TwiMaster;
-import ioio.lib.api.DigitalInput;
 import ioio.lib.api.exception.ConnectionLostException;
+
+import java.io.IOException;
 
 /**
  * A driver for the Nunchuck connected via IOIO.

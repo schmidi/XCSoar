@@ -23,15 +23,15 @@ Copyright_License {
 
 package org.xcsoar;
 
-import java.util.UUID;
-import java.util.Collection;
-import java.util.Set;
-import java.util.LinkedList;
-import java.io.IOException;
-import android.util.Log;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothServerSocket;
 import android.bluetooth.BluetoothSocket;
+import android.util.Log;
+
+import java.io.IOException;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.UUID;
 
 /**
  * A utility class which wraps the Java API into an easier API for the

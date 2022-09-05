@@ -22,15 +22,15 @@
 
 package org.xcsoar;
 
-import android.os.Handler;
-import android.os.Bundle;
 import android.content.Context;
 import android.content.Intent;
-import android.provider.Settings;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.location.LocationProvider;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.Settings;
 
 /**
  * Code to support the internal GPS receiver via #LocationManager.

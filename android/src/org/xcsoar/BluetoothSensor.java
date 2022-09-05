@@ -22,10 +22,6 @@
 
 package org.xcsoar;
 
-import java.util.Queue;
-import java.util.LinkedList;
-import java.io.IOException;
-
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCallback;
@@ -35,6 +31,10 @@ import android.bluetooth.BluetoothGattService;
 import android.bluetooth.BluetoothProfile;
 import android.content.Context;
 import android.os.Build;
+
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * Read Bluetooth LE sensor values and report them to a

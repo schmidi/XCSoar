@@ -23,11 +23,12 @@
 
 package org.xcsoar;
 
-import java.io.IOException;
+import ioio.lib.api.DigitalInput;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.TwiMaster;
-import ioio.lib.api.DigitalInput;
 import ioio.lib.api.exception.ConnectionLostException;
+
+import java.io.IOException;
 
 /**
  * TODO: split file in I2Cbaro.java, MS5611.java and BMP085.java

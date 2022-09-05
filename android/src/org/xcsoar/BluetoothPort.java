@@ -23,8 +23,9 @@ Copyright_License {
 
 package org.xcsoar;
 
-import java.io.IOException;
 import android.bluetooth.BluetoothSocket;
+
+import java.io.IOException;
 
 /**
  * An #AndroidPort implementation for a Bluetooth RFCOMM connection.

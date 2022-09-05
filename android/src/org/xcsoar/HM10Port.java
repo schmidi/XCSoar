@@ -22,8 +22,6 @@
 
 package org.xcsoar;
 
-import java.io.IOException;
-
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCallback;
@@ -34,6 +32,8 @@ import android.bluetooth.BluetoothProfile;
 import android.content.Context;
 import android.os.Build;
 import android.util.Log;
+
+import java.io.IOException;
 
 /**
  * An #AndroidPort implementation for connecting to a HM-10 (Bluetooth

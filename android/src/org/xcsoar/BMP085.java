@@ -23,12 +23,12 @@
 
 package org.xcsoar;
 
-import java.io.IOException;
-
+import ioio.lib.api.DigitalInput;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.TwiMaster;
-import ioio.lib.api.DigitalInput;
 import ioio.lib.api.exception.ConnectionLostException;
+
+import java.io.IOException;
 
 /**
  * A driver for the BMP085 pressure sensor, connected via IOIO.

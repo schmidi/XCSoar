@@ -23,11 +23,10 @@
 
 package org.xcsoar;
 
-import android.util.Log;
-import ioio.lib.api.IOIO;
 import ioio.lib.api.AnalogInput;
-import ioio.lib.api.DigitalOutput;
 import ioio.lib.api.DigitalInput;
+import ioio.lib.api.DigitalOutput;
+import ioio.lib.api.IOIO;
 import ioio.lib.api.exception.ConnectionLostException;
 
 /*

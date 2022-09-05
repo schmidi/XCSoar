@@ -23,11 +23,12 @@ Copyright_License {
 
 package org.xcsoar;
 
+import android.util.Log;
+
 import java.io.IOException;
 import java.util.Collection;
-import java.util.LinkedList;
 import java.util.Iterator;
-import android.util.Log;
+import java.util.LinkedList;
 
 /**
  * An #AndroidPort implementation that combines multiple #AndroidPort

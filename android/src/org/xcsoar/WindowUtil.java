@@ -22,9 +22,9 @@
 
 package org.xcsoar;
 
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.View;
 
 /**
  * A library of utility functions for class #Window.

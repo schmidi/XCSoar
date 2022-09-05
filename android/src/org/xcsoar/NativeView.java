@@ -22,26 +22,25 @@
 
 package org.xcsoar;
 
-import java.io.File;
-import android.util.Log;
-import android.util.DisplayMetrics;
 import android.app.Activity;
-import android.view.MotionEvent;
-import android.view.KeyEvent;
-import android.view.Surface;
-import android.view.SurfaceView;
-import android.view.SurfaceHolder;
-import android.view.View;
-import android.view.ViewParent;
-import android.os.Build;
-import android.os.Handler;
-import android.net.Uri;
-import android.content.Intent;
 import android.content.Context;
-import android.content.res.Resources;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.os.Build;
+import android.os.Handler;
+import android.util.DisplayMetrics;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import android.view.Surface;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+import android.view.View;
+import android.view.ViewParent;
 import android.webkit.MimeTypeMap;
 
 class EGLException extends Exception {

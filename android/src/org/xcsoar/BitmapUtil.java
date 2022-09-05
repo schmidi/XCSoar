@@ -22,14 +22,15 @@
 
 package org.xcsoar;
 
-import android.util.Log;
 import android.graphics.Bitmap;
-import android.graphics.Paint;
 import android.graphics.Canvas;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
-import static android.opengl.GLES20.*;
+import android.graphics.Paint;
 import android.opengl.GLUtils;
+import android.util.Log;
+
+import static android.opengl.GLES20.*;
 
 /**
  * Utilities for dealing with #Bitmap objects and OpenGL.

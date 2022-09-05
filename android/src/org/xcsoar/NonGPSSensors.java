@@ -29,18 +29,17 @@
 
 package org.xcsoar;
 
-import java.io.Closeable;
-
 import android.content.Context;
-import android.os.Handler;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.os.Handler;
 import android.util.Log;
 import android.view.Surface;
 import android.view.WindowManager;
 
+import java.io.Closeable;
 import java.util.HashMap;
 import java.util.Map;
 
